@@ -178,3 +178,11 @@ input:focus, select:focus, textarea:focus {
 .odoslat-btn:hover {
     background-color: #d35400; 
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+}

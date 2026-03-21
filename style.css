@@ -1,3 +1,12 @@
+.telo{
+    background-color: #eeeeee;
+    margin: 0px;
+}
+
+.header{
+    background-color: white;
+}
+
 .top-navbar{
     display: flex;
     justify-content: center;
@@ -101,4 +110,102 @@
     background: #0000ff; 
     z-index: 1; 
     color: white;
+}
+
+.hlavny-obsah {
+    max-width: 1200px;
+    margin: 60px auto; 
+    padding: 0 40px;
+}
+
+.kontajner-o-nas {
+    text-align: left; 
+}
+
+.sekcia-nadpis {
+    font-size: 50px; 
+    font-weight: 300; 
+    margin-bottom: 20px;
+    
+}
+
+.mriezka-obrazkov {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;       
+    gap: 35px;                 
+    margin: 20px 0;
+}
+img {   
+    max-width: 100%;       
+    border-radius: 5px;        
+}
+.malovanie , .malojes , .malujem  {
+    width: 150%;               
+    height: auto;
+    border-radius: 5px;        
+}
+
+.spodny-text {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+}
+.textova-sekcia {
+    max-width: 1000px;
+    margin: 30px auto;
+    line-height: 1.8;
+    color: #444;
+}
+
+.uvodny-text {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-style: italic;
+    color: #555;
+}
+
+.vlastnosti-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.vlastnost {
+    flex: 1;
+    background: #fdfdfd;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 5px solid #b31d1d; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.vlastnost h3 {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.vlastnost p {
+    font-size: 15px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
 }

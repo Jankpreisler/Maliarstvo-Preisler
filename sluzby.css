@@ -164,3 +164,20 @@ footer {
     font-size: 0.9rem;
     color: #777;
 }
+
+.zlta{
+    border-left: 8px solid #f6ff00;
+}
+
+.cervena    { 
+   border-left: 8px solid #b31d1d;
+   color: black;
+}
+.oranzova { 
+    border-left: 8px solid #ff8c00;
+    color: black;
+}
+.modra   { 
+    border-left: 8px solid #0000ff;
+    color: black;
+}
