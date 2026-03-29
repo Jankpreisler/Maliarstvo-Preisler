@@ -275,7 +275,7 @@ footer {
         font-size: 20px;
     }
 
-    /* Úpravy pre kontaktný formulár */
+
     .kontakt-sekcia {
         padding: 20px 10px;
     }
@@ -285,13 +285,13 @@ footer {
     }
 
     .input-riadok {
-        flex-direction: column; /* Polia pod sebou */
+        flex-direction: column; 
         gap: 10px;
     }
 
     .input-riadok input, 
     .input-riadok select {
-        width: 100%;
+        width: 253px;
     }
 
     .form-karta h2 {
@@ -303,4 +303,6 @@ footer {
         padding: 12px;
         font-size: 1rem;
     }
+
+  
 }
