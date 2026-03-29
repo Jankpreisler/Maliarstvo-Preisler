@@ -12,13 +12,13 @@
     <div class="header">
         <div class="headercontent">
             <div>
-                <img class="logo" src="Preisler_Zadanie č.3 logo.png" alt="Logo">
+                <a href="index.html"><img class="logo" src="Preisler_Zadanie č.3 logo.png" alt="Logo"></a>
             </div>
 
              <div class="bottom-navbar">
                 <a href="index.html">O nás</a>
                 <a href="sluzby.html">Služby</a>
-                <a href="Kontaktujtenas.html">Kontaktujte nás</a>
+                <a class="noklick" href="Kontaktujtenas.html">Kontaktujte nás</a>
                 <a href="Cennik.html">Cenník</a>
             </div>
 
@@ -55,7 +55,7 @@
                     <option value="exterier">Maľovanie fasády</option>
                     <option value="stierkovanie">Stierkovanie</option>
                 </select>
-                <input type="text" name="m2" placeholder="Plocha v m2 (voliteľné)" required>
+                <input type="number" min="1" name="m2" placeholder="Plocha v m2 (voliteľné)" required>
             </div>
 
             <textarea name="sprava" rows="5" placeholder="Povedzte nám viac o vašej predstave..." required ></textarea>

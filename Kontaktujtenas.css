@@ -1,9 +1,15 @@
 .telo{
     background-color: #eeeeee;
-    margin: 0px;
+    margin-top: 150px;
 }
+
 .header{
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999; 
 }
 
 .headercontent{
@@ -12,12 +18,15 @@
     font-size: 35px;
     justify-content: space-between;
 }
+.bottom-navbar .noklick{
+     color: #c69114;
+}
 
-a{
+.bottom-navbar a{
     text-decoration: none;
     color: #333;
 }
-a:hover {
+.bottom-navbar a:hover {
     color: #c69114;
     transition: width 0.3s;
 }
@@ -91,7 +100,10 @@ a:hover {
 .burger-pruhy {
     display: flex;
     width: 100%;
-    height: 0;           
+    position: sticky; 
+    top: 120px; 
+    z-index: 1000;
+    height: 0px;            
     overflow: hidden;
     transition: height 0.5s ease-in-out; 
     background: #fff;
@@ -129,7 +141,7 @@ a:hover {
 .cervena    { 
     background: #b31d1d; 
     z-index: 3; 
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .oranzova { 
     background: #ff8c00; 
@@ -217,4 +229,78 @@ footer {
     margin-top: 50px;
     font-size: 0.9rem;
     color: #777;
+}
+
+@media (max-width: 768px) {
+    .bottom-navbar {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        padding-right: 20px;
+    }
+
+    .telo {
+        margin-top: 110px;
+    }
+
+    .header-title {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .burger-pruhy {
+        flex-direction: column;
+        top: 80px; 
+    }
+
+    #menu-bar:checked ~ .burger-pruhy {
+        height: auto;
+    }
+
+    .pruh {
+        transform: none;
+        margin-left: 0;
+        justify-content: flex-start;
+        padding: 20px 40px;
+    }
+
+    .pruh span {
+        transform: none;
+        font-size: 20px;
+    }
+
+    /* Úpravy pre kontaktný formulár */
+    .kontakt-sekcia {
+        padding: 20px 10px;
+    }
+
+    .form-karta {
+        padding: 20px;
+    }
+
+    .input-riadok {
+        flex-direction: column; /* Polia pod sebou */
+        gap: 10px;
+    }
+
+    .input-riadok input, 
+    .input-riadok select {
+        width: 100%;
+    }
+
+    .form-karta h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .odoslat-btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
 }
