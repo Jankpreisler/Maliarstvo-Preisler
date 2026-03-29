@@ -149,7 +149,7 @@
 .oranzova { 
     background: #ff8c00; 
     z-index: 2; 
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .modra   { 
     background: #0000ff; 
@@ -210,22 +210,6 @@ footer {
     color: #777;
 }
 
-.zlta{
-    border-left: 8px solid #f6ff00;
-}
-
-.cervena    { 
-   border-left: 8px solid #b31d1d;
-   color: black;
-}
-.oranzova { 
-    border-left: 8px solid #ff8c00;
-    color: black;
-}
-.modra   { 
-    border-left: 8px solid #0000ff;
-    color: black;
-}
 
 @media (max-width: 768px) {
     .bottom-navbar {

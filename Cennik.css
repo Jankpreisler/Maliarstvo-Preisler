@@ -146,7 +146,7 @@
 .oranzova { 
     background: #ff8c00; 
     z-index: 2; 
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .modra   { 
     background: #0000ff; 
